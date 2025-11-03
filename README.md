@@ -187,7 +187,7 @@ The `sample.json` file contains the data structure for offers. Key fields:
     }
   ],
   "organization": {
-    "name": "[demo] Clay",
+    "name": "Demo Company",
     "valuation_cents": 310000000000,
     "shares_outstanding": 291629820,
     "strike_price_cents": 210,
