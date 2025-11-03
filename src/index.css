@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  
+  /* Clay.com colors - refined palette */
+  --clay-purple: #6366f1;
+  --clay-purple-dark: #4f46e5;
+  --clay-blue: #3b82f6;
+  --clay-teal: #14b8a6;
+  --clay-green: #10b981;
+  --clay-orange: #f59e0b;
+  --clay-pink: #ec4899;
+  
+  --primary: #5b45ff;
+  --primary-dark: #4835cc;
+  --primary-light: #7d6aff;
+  --accent: #14b8a6;
+  --accent-light: #5eead4;
+  
+  /* Refined gray scale matching Clay.com */
+  --gray-25: #fcfcfd;
+  --gray-50: #f9fafb;
+  --gray-100: #f2f4f7;
+  --gray-200: #eaecf0;
+  --gray-300: #d0d5dd;
+  --gray-400: #98a2b3;
+  --gray-500: #667085;
+  --gray-600: #475467;
+  --gray-700: #344054;
+  --gray-800: #1d2939;
+  --gray-900: #101828;
+  --gray-950: #0c111d;
+  
+  color-scheme: light;
+  background: #ffffff;
+  min-height: 100vh;
+  
+  /* Typography */
+  --font-heading: -apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif;
+  --font-body: -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif;
+  
+  /* Spacing scale */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+  --spacing-3xl: 4rem;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  line-height: 1.2;
+  color: var(--gray-900);
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 2.25rem;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 600;
+}
+
+button:hover {
+  transform: translateY(-1px);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+input, textarea, select {
+  font-family: inherit;
+  transition: all 0.2s ease;
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.slide-in {
+  animation: slideIn 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.scale-in {
+  animation: scaleIn 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--gray-300);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--gray-400);
+}
+

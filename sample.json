@@ -1,0 +1,484 @@
+{
+  "props": {
+    "pageProps": {
+      "offer": {
+        "annual_salary_cents": 16000000,
+        "candidate_email": "maple.law@example.com",
+        "candidate_full_name": "Maple Law",
+        "cash_currency": "USD",
+        "commission_currency": "USD",
+        "compensation_type": "annual",
+        "created_at": "2024-10-23T17:05:56.725025+00:00",
+        "customization": {
+          "theme": "cyan",
+          "appTheme": "default",
+          "welcome": {
+            "title": "Welcome, Maple Law!",
+            "message": "The team is elated to extend you an offer to join the [demo] Clay family. We hope you'll accept and come do the best work of your life! 🚀",
+            "confetti": true,
+            "imagePath": "2025-09-25T00-56-58_make_them_wave (2).gif",
+            "candidateEmailGated": false
+          },
+          "overview": {
+            "title": "🎉 Congrats, Maple, on your offer from [demo] Clay! 🎉",
+            "message": "The team is excited for you to join — check out their messages for you 📤",
+            "imagePath": "corporate_image_1.png"
+          },
+          "company": {
+            "valuesImagePath": "Screenshot 2024-10-23 at 12.25.23 PM.png",
+            "customersImagePath": "Screenshot 2024-10-23 at 10.00.33 AM.png",
+            "valuesTitle": "Values",
+            "customersTitle": "Customers",
+            "steps": [],
+            "resourceURLs": [
+              "https://www.bloomberg.com/news/articles/2024-06-27/sequoia-meritech-invest-in-ai-sales-and-marketing-startup-clay",
+              "https://siliconangle.com/2024/06/27/clay-raises-46m-500m-valuation-enhance-ai-driven-sales-marketing-platform/"
+            ],
+            "videoURLs": [
+              "https://youtu.be/Et0IZgbo3nU"
+            ],
+            "metrics": [
+              {
+                "label": "Series C Valuation",
+                "value": "$3.1B"
+              },
+              {
+                "label": "Revenue Growth 2025",
+                "value": "3x year-over-year",
+                "detailsUrl": ""
+              },
+              {
+                "label": "Customers",
+                "value": "10,000+",
+                "detailsUrl": ""
+              }
+            ]
+          },
+          "financials": {
+            "salaryDetailDescription": "",
+            "hourlyWageDetailDescription": "",
+            "sliders": {
+              "defaultAnnualSalaryIncrease": 0,
+              "defaultBonusPercentage": 0,
+              "defaultEquityRefresh": 0,
+              "defaultEquityMultiplier": 1,
+              "defaultValuationMax": 10
+            },
+            "performanceCompensation": {
+              "cashBonus": true,
+              "salaryIncrease": true,
+              "equityRefresh": true,
+              "equityMultiplier": true
+            },
+            "dilution": {
+              "enabled": false
+            },
+            "valuations": [],
+            "marketMilestones": [
+              "Pagerduty",
+              "DigitalOcean",
+              "Notion",
+              "Saronic",
+              "Slack",
+              "Twilio",
+              "Twitch"
+            ]
+          },
+          "sign": {
+            "enabled": true
+          }
+        },
+        "document_variables": {},
+        "early_exercise": false,
+        "equity_percent_bps": null,
+        "equity_unit_type": "iso",
+        "equity_units": 20000,
+        "equity_value_cents": 100000000,
+        "expires_at": "2026-01-25T07:59:59+00:00",
+        "flexibility": null,
+        "generated_document_name": null,
+        "id": 12201,
+        "job_description": "",
+        "location": "New York, NY",
+        "manager_email": "",
+        "manager_full_name": "Jessica Pelaez",
+        "manager_position": "Head of Growth",
+        "offer_signed_at": null,
+        "reject_reason_type": null,
+        "reject_reason_note": null,
+        "onboarding": {},
+        "position": "Talent",
+        "public_uuid": "207c97ea-4a98-4d7a-ada0-e60758e8da6c",
+        "recruiter_email": "48_moorejason@example.net",
+        "recruiter_full_name": "Heather Haney",
+        "recruiter_phone": "",
+        "role_id": null,
+        "selected_package_id": 12805,
+        "selected_template_name": null,
+        "start_date": "2025-12-11T17:00:00+00:00",
+        "state": "open",
+        "outcome": null,
+        "uuid": "54002419-f043-4ef6-9a0f-3d991d459bcc",
+        "vesting_schedule": "1/48 monthly, 25% vest at 12 month cliff",
+        "candidate_last_viewed_at": "2025-11-02T14:58:46.640002+00:00",
+        "is_template": false,
+        "benefit_package": {
+          "id": 565,
+          "benefits": {
+            "benefits": {
+              "value": 20000
+            },
+            "all_benefits": [
+              {
+                "emoji": "🏥",
+                "title": "Health insurance",
+                "featured": true,
+                "description": "coverage through Kaiser or Blue Shield"
+              },
+              {
+                "emoji": "🦷",
+                "title": "Dental insurance",
+                "description": "coverage through Delta Dental "
+              },
+              {
+                "emoji": "👓",
+                "title": "Vision insurance",
+                "description": "coverage through VSP"
+              },
+              {
+                "emoji": "📅",
+                "title": "Holidays",
+                "description": "NYSE Holidays and Juneteenth"
+              },
+              {
+                "emoji": "⚕️",
+                "title": "Long-term disability",
+                "description": "coverage through MetLife"
+              },
+              {
+                "emoji": "🤰",
+                "title": "Maternity leave",
+                "description": "up to 6 months"
+              },
+              {
+                "emoji": "👨",
+                "title": "Paid parental leave",
+                "description": "up to 8 weeks"
+              },
+              {
+                "emoji": "🏝",
+                "title": "Paid time off",
+                "featured": true,
+                "description": "15 days + 4 wellness days per year!"
+              },
+              {
+                "emoji": "🏛",
+                "title": "401K",
+                "featured": true,
+                "description": "available for retirement contributions"
+              },
+              {
+                "emoji": "➕",
+                "title": "More",
+                "description": "More benefits coming soon!"
+              }
+            ]
+          },
+          "eligibilityText": null
+        },
+        "organization": {
+          "id": 469,
+          "uuid": "a219b643-ad6c-48ca-a0dc-2af64b03b7fb",
+          "default_vesting_schedule": "1/48 monthly, 25% vest at 12 month cliff",
+          "name": "[demo] Clay",
+          "identifier": "demo-clay",
+          "shares_outstanding": 291629820,
+          "strike_price_cents": 210,
+          "preferred_share_price_cents": 1063,
+          "valuation_cents": 310000000000,
+          "welcome_image_path": "",
+          "overview_image_path": "",
+          "values_image_path": "",
+          "customers_image_path": "",
+          "transparency": {
+            "equity": {
+              "reveal_strike_price": true,
+              "reveal_preferred_price": true,
+              "reveal_shares_outstanding": false,
+              "reveal_percentage_ownership": false
+            }
+          },
+          "customization": {
+            "theme": "cyan",
+            "company": {
+              "metrics": [
+                {
+                  "label": "Series C Valuation",
+                  "value": "$3.1B"
+                },
+                {
+                  "label": "Revenue Growth 2025",
+                  "value": "3x year-over-year",
+                  "detailsUrl": ""
+                },
+                {
+                  "label": "Customers",
+                  "value": "10,000+",
+                  "detailsUrl": ""
+                }
+              ],
+              "videoURLs": [
+                "https://youtu.be/Et0IZgbo3nU"
+              ],
+              "resourceURLs": [
+                "https://www.bloomberg.com/news/articles/2024-06-27/sequoia-meritech-invest-in-ai-sales-and-marketing-startup-clay",
+                "https://siliconangle.com/2024/06/27/clay-raises-46m-500m-valuation-enhance-ai-driven-sales-marketing-platform/"
+              ],
+              "valuesImagePath": "Screenshot 2024-10-23 at 12.25.23 PM.png",
+              "customersImagePath": "Screenshot 2024-10-23 at 10.00.33 AM.png"
+            },
+            "welcome": {
+              "message": "The team is elated to extend you an offer to join the ${company} family. We hope you'll accept and come do the best work of your life! 🚀",
+              "confetti": true,
+              "imagePath": "2025-09-25T00-56-58_make_them_wave (2).gif",
+              "candidateEmailGated": false
+            },
+            "appTheme": "default",
+            "overview": {
+              "imagePath": "corporate_image_1.png"
+            },
+            "financials": {
+              "sliders": {
+                "defaultValuationMax": 10,
+                "defaultEquityRefresh": 0,
+                "defaultBonusPercentage": 0,
+                "defaultEquityMultiplier": 1,
+                "defaultAnnualSalaryIncrease": 0
+              },
+              "marketMilestones": [
+                "Pagerduty",
+                "DigitalOcean",
+                "Notion",
+                "Saronic",
+                "Slack",
+                "Twilio",
+                "Twitch"
+              ],
+              "performanceCompensation": {
+                "cashBonus": true,
+                "equityRefresh": true,
+                "salaryIncrease": true
+              }
+            }
+          },
+          "stock": null,
+          "exercise_window": "standard",
+          "compensation_philosophy": "Clay’s Comp Philsophy\n\nCompensation at Clay is designed to reflect impact, not just tenure or title. For example, ICs may have more impact even though they’re not managing anyone. Compensation will also be aligned with market benchmarks, as well as offer real upside when the company wins.\n\nComp Package Breakdown\n\nWe think about compensation holistically, combining cash and equity. We calibrate each comp package based on the role, experience, and market benchmarks from companies at similar stages in US tier 1 cities using multiple data sources. Everyone on the team, no matter their level or location, gets equity. We want everyone to feel valued and benefit from the upside we’re building together.\n\nWe see cash and equity as 1:1. Some hires may have taken a lower comp for more equity, or the reverse. Earlier hires took on more risk, and that gets reflected by them getting more equity.\n\nClay’s Vesting Schedule\n\nOur standard vesting schedule is four years with a one-year cliff. 25% of your stock options vest after your first 12 months of employment, and the remaining 75% vest in equal monthly installments over the following 36 months. That means, you'll be fully vested after four years.\n\nIf you receive an additional stock grant, it ties to your original cliff. If you’ve been at Clay for more than a year, there’s no cliff.\n\nYour Benefits\n\nWe think of Benefits at Clay as a part of the compensation package. Our benefits are designed to support your whole life, and not just your work life. The below specify benefits for US-based Claymates. We are building out our policy for international Claymates. In the meantime, please reach out to your recruiter for more information!\nHealth insurance - We invest in top tier healthcare, including fully-funded high-quality health, mental health, dental and vision coverage options. We also offer trans-affirming care.\n\nParental \u0026 family benefits - We currently provide IVF fertility benefits and 16 weeks of paid parental leave. We’re also actively working on supporting current and future parents with egg freezing. If you’re looking to do that soon, get in touch with the People team.\n\n401(k) - Clay provides access to company sponsored 401(k) plan for you to save for retirement via Guideline. Clay offers both 401(k) and Roth 401(k), depending on your tax preference. Clay does not contribute to the 401(k), but we will continue to explore this and welcome any questions and suggestions.\n\nCompany-wide events - We host monthly NYC happy hours and family friendly company events throughout the year.\n\nGenerous PTO - We require all Claymakers to take at least 15 days of vacation a year (3 weeks) to allow you to rest and restore.\n\nCompany-sponsored coaches - We’re offering coaching for everyone at Clay — not just managers. Work with them to help you grow personally, professionally, and relationally.\n\nVisa and green card sponsorship for US-based Claymates - We know it can be an arduous process, but we're here to help you succeed\nNYC in-office free meals - Clay offers catered lunch every day. If you are in the office in the evening, you have the option to order in food with a Doordash stipend.\n\nWe invest heavily here so you can focus on building, not worry about things that shouldn’t get in the way.\n\nQ\u0026A\n\nEquity \u0026 Liquidity\nAre all employees on the same vesting schedule?\n\nOur standard vesting schedule is four years with a one-year cliff. 25% of your stock options vest after your first 12 months of employment, and the remaining 75% vest in equal monthly installments over the following 36 months. That means, you'll be fully vested after four years. If you receive an additional stock grant, it ties to your original cliff. If you’ve been at Clay for more than a year, there’s no cliff.\nWhat platform does Clay use to track its capitalization table?\n\nCarta\nWho are Clay’s major investors?\nOur major investors are Sequoia, CapitalG, Meritech, and First Round Capital.\n\nHow is Clay thinking about liquidity?\nWe’re committed to retaining top talent for the long term and we recognize that teammates have different liquidity needs along the way. That’s why we launched our first tender offer in 2025. Our equity is real, and we want it to feel that way. We put in the work to make this tender opportunity possible (a rare move at our stage) because we believe the upside our team helps create should be tangible, not just on paper. We hope to offer more opportunities like this in the future.\n\nWhy did you run a tender offer in early 2025?\nOur team’s equity is real, and we want it to feel that way. That’s why we did the hard work to offer the recent tender opportunity (which is very rare at a company at this stage). Our goal is to make sure the upside our team helped create is something they can actually access and see the value of today. We hope to do do more in the future.\n\nCompensation\nWho decides compensation?\nManagers don’t decide compensation, but they play a critical role in surfacing standout work. Kareem, Varun and Karan meet monthly to review team performance and the employees they hear are going above \u0026 beyond. If someone is doing work that far exceeds their current level, their manager will let them know and they’ll act accordingly. If someone doesn’t think their manager is advocating for them, feel free to go to Kareem, Varun or Karan directly.\n\nIn addition to those ongoing conversations, Kareem, Varun and Karan review team-wide compensation on an annual basis to make sure everyone is paid accordingly and at market rate.\n\nHow do raises work?\nWe don’t wait for performance review cycles to make compensation changes. If someone is consistently outperforming over a meaningful period of time (6+ months) and their scope has meaningfully expanded, we want to recognize that at the time (not months later).\n\nWhat counts as over-performance? There’s no set formula because over-performance can take many forms. It could mean someone who mentors others, builds internal systems to scale themselves, or raises the bar in their core role. They’ll often know it’s happening when they get more customer feedback, their manager starts trusting them more with increased scope or complex work, or their teammates come to them for help. To be clear, this is not about doing more projects, it’s about doing a few things extremely well that have a large impact.\n\n\n\n",
+          "onboarding": null
+        },
+        "compensation_package": [
+          {
+            "id": 12806,
+            "is_default": null,
+            "index": null,
+            "name": null,
+            "internal_name": null,
+            "description": null,
+            "annual_salary_cents": 16000000,
+            "hourly_wage_cents": null,
+            "early_exercise": false,
+            "vesting_schedule": "1/48 monthly, 25% vest at 12 month cliff",
+            "equity_percent_bps": null,
+            "equity_units": 20000,
+            "equity_unit_type": "iso",
+            "equity_value_cents": 100000000,
+            "equity_packages": [
+              {
+                "equity_units": 15000,
+                "equity_unit_type": "iso"
+              },
+              {
+                "equity_units": 5000,
+                "equity_unit_type": "rsu"
+              }
+            ],
+            "cash_currency": "USD",
+            "commission_currency": "USD",
+            "commission_split": null,
+            "commission_cents": null,
+            "commission_structure_id": null,
+            "organization_id": 469,
+            "bonus": [],
+            "commission_structure": null
+          },
+          {
+            "id": 12805,
+            "is_default": null,
+            "index": null,
+            "name": null,
+            "internal_name": null,
+            "description": null,
+            "annual_salary_cents": 15000000,
+            "hourly_wage_cents": null,
+            "early_exercise": false,
+            "vesting_schedule": "1/48 monthly, 25% vest at 12 month cliff",
+            "equity_percent_bps": null,
+            "equity_units": 27500,
+            "equity_unit_type": "iso",
+            "equity_value_cents": 137500000,
+            "equity_packages": [
+              {
+                "equity_units": 20000,
+                "equity_unit_type": "iso"
+              },
+              {
+                "equity_units": 7500,
+                "equity_unit_type": "rsu"
+              }
+            ],
+            "cash_currency": "USD",
+            "commission_currency": "USD",
+            "commission_split": null,
+            "commission_cents": null,
+            "commission_structure_id": null,
+            "organization_id": 469,
+            "bonus": [],
+            "commission_structure": null
+          },
+          {
+            "id": 12807,
+            "is_default": null,
+            "index": null,
+            "name": null,
+            "internal_name": null,
+            "description": null,
+            "annual_salary_cents": 17000000,
+            "hourly_wage_cents": null,
+            "early_exercise": false,
+            "vesting_schedule": "1/48 monthly, 25% vest at 12 month cliff",
+            "equity_percent_bps": null,
+            "equity_units": 20000,
+            "equity_unit_type": "iso",
+            "equity_value_cents": 100000000,
+            "equity_packages": [
+              {
+                "equity_units": 10000,
+                "equity_unit_type": "iso"
+              },
+              {
+                "equity_units": 10000,
+                "equity_unit_type": "rsu"
+              }
+            ],
+            "cash_currency": "USD",
+            "commission_currency": "USD",
+            "commission_split": null,
+            "commission_cents": null,
+            "commission_structure_id": null,
+            "organization_id": 469,
+            "bonus": [],
+            "commission_structure": null
+          }
+        ],
+        "commission_structure": null,
+        "role": null,
+        "equity_refresh_target_cents": null,
+        "is_default": null,
+        "index": null,
+        "name": null,
+        "internal_name": null,
+        "description": null,
+        "hourly_wage_cents": null,
+        "commission_split": null,
+        "commission_cents": null,
+        "commission_structure_id": null,
+        "organization_id": 469,
+        "bonus": [],
+        "equity_packages": [
+          {
+            "equity_units": 15000,
+            "equity_unit_type": "iso"
+          },
+          {
+            "equity_units": 5000,
+            "equity_unit_type": "rsu"
+          }
+        ]
+      },
+      "messages": [
+        {
+          "id": 10279,
+          "authorFullName": "Kareem Amin",
+          "user": {
+            "id": 3943,
+            "fullName": "Kareem Amin",
+            "email": "",
+            "group": "founder",
+            "imagePath": null,
+            "links": [],
+            "title": "Founder"
+          },
+          "content": "Congrats on the offer Puneet! Looking forward to potentially working together! I'm here as a resource for any questions you might have.",
+          "createdAt": "2024-10-23T17:14:33.204841+00:00",
+          "videoUrl": null,
+          "offerOmitted": [],
+          "offer": {
+            "id": 12201
+          }
+        },
+        {
+          "id": 10280,
+          "authorFullName": "Varun Anand",
+          "user": {
+            "id": 3944,
+            "fullName": "Varun Anand",
+            "email": "",
+            "group": "founder",
+            "imagePath": null,
+            "links": [],
+            "title": "Co-Founder"
+          },
+          "content": "Great to meet you during the interview process Puneet! Looking forward to working together! :)",
+          "createdAt": "2024-10-23T17:16:45.837454+00:00",
+          "videoUrl": null,
+          "offerOmitted": [],
+          "offer": {
+            "id": 12201
+          }
+        },
+        {
+          "id": 10281,
+          "authorFullName": "Franchesca Laura",
+          "user": {
+            "id": 3945,
+            "fullName": "Franchesca Laura",
+            "email": "",
+            "group": "team",
+            "imagePath": null,
+            "links": [],
+            "title": ""
+          },
+          "content": "Really great getting to meet you in the interview process! Congrats!!! :)",
+          "createdAt": "2024-10-23T17:18:34.676030+00:00",
+          "videoUrl": null,
+          "offerOmitted": [],
+          "offer": {
+            "id": 12201
+          }
+        }
+      ],
+      "_sentryTraceData": "5ba2cb75d3374097b56c5e6420b8760b-a9d8896bfebe1d6e-1",
+      "_sentryBaggage": "sentry-environment=production,sentry-release=dc0c2cc682e9cf2c2ffab3659dca2d78f5cad122,sentry-public_key=14c56b3f1410450d895db69803a74a78,sentry-trace_id=5ba2cb75d3374097b56c5e6420b8760b,sentry-sample_rate=1,sentry-transaction=%2Foffer%2F%5Boid%5D,sentry-sampled=true"
+    },
+    "__N_SSP": true
+  },
+  "page": "/offer/[oid]",
+  "query": {
+    "oid": "54002419-f043-4ef6-9a0f-3d991d459bcc"
+  },
+  "buildId": "9Cfb6aSbL3f6p_evYVTz4",
+  "isFallback": false,
+  "isExperimentalCompile": false,
+  "gssp": true,
+  "scriptLoader": []
+}
