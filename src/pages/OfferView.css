@@ -750,13 +750,140 @@
   font-weight: 500;
 }
 
+/* Mobile Responsive Styles */
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 1.5rem;
+  }
+  
+  .overview-section,
+  .calculator-section,
+  .metrics-section,
+  .benefits-section,
+  .messages-section {
+    margin: 2rem 1rem;
+  }
+  
+  .equity-breakdown-section {
+    margin: 2rem 1rem;
+    padding: 3rem 1.5rem;
+  }
+}
+
 @media (max-width: 768px) {
+  .offer-view {
+    padding-bottom: 2rem;
+  }
+  
+  .welcome-section {
+    padding: 4rem 1.5rem 3rem;
+  }
+  
   .welcome-content h1 {
+    font-size: 2.5rem;
+  }
+  
+  .welcome-message {
+    font-size: 1.125rem;
+    margin-bottom: 2rem;
+  }
+  
+  .company-name {
+    font-size: 1.125rem;
+    padding: 0.75rem 1.5rem;
+  }
+  
+  .overview-section,
+  .equity-breakdown-section,
+  .calculator-section,
+  .metrics-section,
+  .benefits-section,
+  .messages-section {
+    padding: 3rem 1.5rem;
+    margin: 2rem 1rem;
+  }
+  
+  .overview-section {
+    margin-top: -3rem;
+  }
+  
+  .overview-section h2,
+  .equity-breakdown-section h2,
+  .calculator-section h2,
+  .metrics-section h2,
+  .benefits-section h2,
+  .messages-section h2 {
     font-size: 2rem;
+  }
+  
+  .overview-subtitle,
+  .section-subtitle {
+    font-size: 1rem;
+    margin-bottom: 2rem;
   }
   
   .offer-details-grid {
     grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .detail-card {
+    padding: 1.5rem;
+  }
+  
+  .detail-value {
+    font-size: 1.5rem;
+  }
+  
+  .equity-packages-display {
+    grid-template-columns: 1fr;
+  }
+  
+  .equity-info-grid,
+  .explainer-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .metrics-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+  }
+  
+  .metric-card {
+    padding: 1.5rem 1rem;
+  }
+  
+  .metric-value {
+    font-size: 2rem;
+  }
+  
+  .benefits-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .messages-grid {
+    gap: 1rem;
+  }
+  
+  .message-card {
+    padding: 1.5rem;
+  }
+  
+  .message-video iframe {
+    height: 200px;
+  }
+  
+  .cta-section {
+    padding: 3rem 1rem;
+    margin: 2rem 1rem;
+  }
+  
+  .cta-box {
+    padding: 3rem 1.5rem;
+  }
+  
+  .cta-box h2 {
+    font-size: 2rem;
   }
   
   .cta-buttons {
@@ -765,6 +892,97 @@
   
   .btn-primary, .btn-secondary {
     width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .welcome-section {
+    padding: 3rem 1rem 2.5rem;
+  }
+  
+  .welcome-content h1 {
+    font-size: 2rem;
+  }
+  
+  .welcome-message {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .company-name {
+    font-size: 1rem;
+    padding: 0.625rem 1.25rem;
+  }
+  
+  .overview-section,
+  .equity-breakdown-section,
+  .calculator-section,
+  .metrics-section,
+  .benefits-section,
+  .messages-section {
+    padding: 2rem 1rem;
+    margin: 1.5rem 0.5rem;
+    border-radius: 16px;
+  }
+  
+  .overview-section h2,
+  .equity-breakdown-section h2 {
+    font-size: 1.75rem;
+  }
+  
+  .detail-card {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.25rem;
+  }
+  
+  .detail-icon {
+    font-size: 2rem;
+  }
+  
+  .detail-value {
+    font-size: 1.375rem;
+  }
+  
+  .equity-package-card {
+    padding: 2rem 1.5rem;
+  }
+  
+  .package-amount {
+    font-size: 2rem;
+  }
+  
+  .metrics-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .metric-card {
+    padding: 1.25rem;
+  }
+  
+  .metric-value {
+    font-size: 1.75rem;
+  }
+  
+  .cta-box {
+    padding: 2.5rem 1.25rem;
+  }
+  
+  .cta-box h2 {
+    font-size: 1.75rem;
+  }
+  
+  .error-box {
+    padding: 2rem 1.5rem;
+    margin: 1rem;
+  }
+  
+  .error-box h1 {
+    font-size: 3rem;
+  }
+  
+  .error-box h2 {
+    font-size: 1.5rem;
   }
 }
 

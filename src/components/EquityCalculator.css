@@ -336,17 +336,226 @@
   color: var(--gray-800);
 }
 
+/* Mobile Responsive Styles */
+@media (max-width: 1024px) {
+  .equity-calculator {
+    padding: 1.5rem;
+  }
+  
+  .control-section {
+    padding: 1.25rem;
+  }
+  
+  .projections-table {
+    min-width: 800px;
+  }
+}
+
 @media (max-width: 768px) {
+  .equity-calculator {
+    padding: 1.25rem;
+    border-radius: 16px;
+  }
+  
   .calculator-controls {
     grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .control-section {
+    padding: 1.25rem;
+  }
+  
+  .control-section h3 {
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+  }
+  
+  .label-text {
+    font-size: 0.875rem;
+  }
+  
+  .value-display {
+    font-size: 1.125rem;
+    min-width: 90px;
+  }
+  
+  .exit-summary {
+    padding: 1.5rem;
+  }
+  
+  .exit-summary h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1.25rem;
   }
   
   .summary-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 0.75rem;
+  }
+  
+  .summary-card {
+    padding: 1.25rem;
+  }
+  
+  .summary-label {
+    font-size: 0.8125rem;
+  }
+  
+  .summary-value {
+    font-size: 1.5rem;
+  }
+  
+  .projections-table-wrapper {
+    padding: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .projections-table-wrapper h3 {
+    font-size: 1.125rem;
   }
   
   .table-scroll {
     -webkit-overflow-scrolling: touch;
+    margin: 0 -1.25rem;
+    padding: 0 1.25rem;
+  }
+  
+  .projections-table {
+    min-width: 700px;
+    font-size: 0.8125rem;
+  }
+  
+  .projections-table th,
+  .projections-table td {
+    padding: 0.75rem 0.5rem;
+  }
+  
+  .market-comparisons {
+    padding: 1.25rem;
+  }
+  
+  .milestone-chips {
+    gap: 0.5rem;
+  }
+  
+  .milestone-chip {
+    font-size: 0.8125rem;
+    padding: 0.375rem 0.75rem;
+  }
+  
+  .calculator-disclaimer {
+    padding: 0.875rem;
+    margin-top: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .equity-calculator {
+    padding: 1rem;
+  }
+  
+  .calculator-controls {
+    gap: 1.25rem;
+  }
+  
+  .control-section {
+    padding: 1rem;
+  }
+  
+  .control-section h3 {
+    font-size: 1rem;
+  }
+  
+  .input-with-display {
+    flex-direction: column;
+    gap: 0.75rem;
+    align-items: stretch;
+  }
+  
+  .value-display {
+    text-align: center;
+    font-size: 1.25rem;
+  }
+  
+  .input-with-display input[type="range"] {
+    width: 100%;
+  }
+  
+  .exit-summary {
+    padding: 1.25rem;
+  }
+  
+  .exit-summary h3 {
+    font-size: 1.125rem;
+  }
+  
+  .summary-grid {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+  
+  .summary-card {
+    padding: 1rem;
+  }
+  
+  .summary-value {
+    font-size: 1.375rem;
+  }
+  
+  .projections-table-wrapper {
+    padding: 1rem;
+    border-radius: 12px;
+  }
+  
+  .projections-table-wrapper h3 {
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .table-scroll {
+    margin: 0 -1rem;
+    padding: 0 1rem;
+  }
+  
+  .projections-table {
+    min-width: 600px;
+    font-size: 0.75rem;
+  }
+  
+  .projections-table th,
+  .projections-table td {
+    padding: 0.625rem 0.375rem;
+    font-size: 0.75rem;
+  }
+  
+  .market-comparisons {
+    padding: 1rem;
+  }
+  
+  .market-comparisons h3 {
+    font-size: 1rem;
+  }
+  
+  .milestone-chips {
+    gap: 0.5rem;
+  }
+  
+  .milestone-chip {
+    font-size: 0.75rem;
+    padding: 0.375rem 0.625rem;
+  }
+  
+  .milestone-note {
+    font-size: 0.8125rem;
+  }
+  
+  .calculator-disclaimer {
+    padding: 0.75rem;
+  }
+  
+  .calculator-disclaimer p {
+    font-size: 0.8125rem;
   }
 }
 

@@ -180,3 +180,40 @@ input, textarea, select {
   background: var(--gray-400);
 }
 
+/* Mobile Responsive Typography */
+@media (max-width: 768px) {
+  :root {
+    font-size: 16px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.75rem;
+  }
+  
+  h3 {
+    font-size: 1.25rem;
+  }
+  
+  body {
+    font-size: 0.9375rem;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.75rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  h3 {
+    font-size: 1.125rem;
+  }
+}
+

@@ -58,6 +58,7 @@ Built with a modern, clean aesthetic inspired by [Clay.com](https://clay.com):
 - **Colorful range sliders**: Beautiful, interactive controls
 - **Professional typography**: SF Pro Display with careful spacing
 - **Accessibility-first**: High contrast text and clear visual hierarchy
+- **📱 Fully Responsive**: Optimized for mobile, tablet, and desktop devices
 
 ## 📸 Screenshots
 
@@ -163,6 +164,7 @@ maple_comp_website/
 - **React Context API**: State management
 - **Vite**: Fast build tool and dev server
 - **CSS3**: Custom styling with gradients and animations
+- **Responsive Design**: Mobile-first approach with breakpoints for all screen sizes
 - **JavaScript ES6+**: Modern syntax and features
 
 ## 🔧 Configuration
