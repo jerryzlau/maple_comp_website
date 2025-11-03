@@ -23,7 +23,7 @@ To complete the README documentation, please add the following screenshots:
 
 1. **Start the dev server**: `npm run dev`
 2. **Navigate to the routes**:
-   - Candidate view: `http://localhost:5174/offer/sample`
+   - Candidate view: `http://localhost:5174/offer/:id`
    - Recruiter dashboard: `http://localhost:5174/manage/offer`
 3. **Use browser developer tools** to capture at consistent dimensions (e.g., 1920x1080)
 4. **Save as PNG** files with the names listed above

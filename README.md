@@ -63,11 +63,6 @@ Built with a modern, clean aesthetic inspired by [Clay.com](https://clay.com):
 
 ### Candidate Experience
 
-#### Welcome Section
-*Beautiful personalized greeting with company branding*
-
-![Welcome Section](./screenshots/welcome-section.png)
-
 #### Compensation Overview
 *Clear breakdown of salary, equity, and ownership*
 
@@ -99,16 +94,6 @@ Built with a modern, clean aesthetic inspired by [Clay.com](https://clay.com):
 *Comprehensive form for building job offers*
 
 ![Create Offer](./screenshots/create-offer-form.png)
-
-#### Multiple Equity Packages
-*Add and configure mixed equity types*
-
-![Equity Packages](./screenshots/equity-packages-form.png)
-
-#### Edit Offer
-*Update existing offer details*
-
-![Edit Offer](./screenshots/edit-offer.png)
 
 ## 🚀 Getting Started
 
